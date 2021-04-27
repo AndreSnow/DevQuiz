@@ -4,19 +4,20 @@ import 'package:devquiz/core/core.dart';
 import 'package:devquiz/shared/widgets/progress_indicator/progress_indicator_widget.dart';
 
 class QuizCardWidget extends StatelessWidget {
+  final String image;
   final String title;
   final String completed;
   final double percent;
   final VoidCallback onTap;
 
-  const QuizCardWidget(
-      {Key? key,
-      required this.title,
-      required this.completed,
-      required this.percent,
-      required this.onTap,
-      required String image})
-      : super(key: key);
+  const QuizCardWidget({
+    Key? key,
+    required this.image,
+    required this.title,
+    required this.completed,
+    required this.percent,
+    required this.onTap,
+  }) : super(key: key);
 
   @override
   Widget build(BuildContext context) {
@@ -33,13 +34,13 @@ class QuizCardWidget extends StatelessWidget {
           crossAxisAlignment: CrossAxisAlignment.start,
           children: [
             Container(
-              height: 30 * 0.8,
-              width: 30 * 0.8,
-              child: Image.asset(AppImages.blocks),
+              height: 40,
+              width: 40,
+              child: Image.asset(image),
             ),
-            SizedBox(height: 12),
+            SizedBox(height: 14),
             Text(title, style: AppTextStyles.heading15),
-            SizedBox(height: 12),
+            SizedBox(height: 14),
             Row(
               children: [
                 Expanded(

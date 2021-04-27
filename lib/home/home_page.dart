@@ -64,7 +64,7 @@ class _HomePageState extends State<HomePage> {
                         (e) => QuizCardWidget(
                           title: e.title,
                           completed:
-                              '${e.questionAwsered}/${e.questions.length}',
+                              '${e.questionAnswered}/${e.questions.length}',
                           onTap: () {
                             Navigator.push(
                                 context,
@@ -75,7 +75,7 @@ class _HomePageState extends State<HomePage> {
                                   ),
                                 ));
                           },
-                          percent: e.questionAwsered / e.questions.length,
+                          percent: e.questionAnswered / e.questions.length,
                           image: e.image,
                         ),
                       )
