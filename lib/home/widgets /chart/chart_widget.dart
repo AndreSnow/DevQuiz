@@ -26,6 +26,12 @@ class _ChartWidgetState extends State<ChartWidget>
   }
 
   @override
+  void initState() {
+    initAnimation();
+    super.initState();
+  }
+
+  @override
   Widget build(BuildContext context) {
     return Container(
         width: 80,

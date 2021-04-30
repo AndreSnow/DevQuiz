@@ -22,7 +22,7 @@ class QuestionModel {
 
   factory QuestionModel.fromMap(Map<String, dynamic> map) {
     return QuestionModel(
-      title: map['title'] = '',
+      title: map['title'],
       answers: List<AnswerModel>.from(
           map['answers']?.map((x) => AnswerModel.fromMap(x))),
     );
