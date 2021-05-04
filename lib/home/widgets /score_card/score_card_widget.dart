@@ -26,7 +26,7 @@ class ScoreCardWidget extends StatelessWidget {
                 child: ChartWidget(percent: percent),
               ),
               Expanded(
-                flex: 3,
+                flex: 2,
                 child: Padding(
                   padding: const EdgeInsets.only(left: 20),
                   child: Column(
