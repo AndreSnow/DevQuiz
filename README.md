@@ -6,15 +6,15 @@
 
    <p>
    
-   - [Sobre](#sobre-)
-   - [Preview](#preview-)
-   - [Layout](#layout-)
-   - [Funcionalidades](#Funcionalidades-%EF%B8%8F)
-   - [Desafios e Aprendizados no Caminho](#desafios-e-aprendizados-no-caminho-)
-   - [Arquivos no Notion](#arquivos-no-notion-)
-   - [Como Usar](#como-usar-)
-   - [Como Contribuir](#como-contribuir-)
-   - [Licença](#licença-)
+   - [Sobre](#sobre)
+   - [Preview](#preview)
+   - [Layout](#layout)
+   - [Funcionalidades](#Funcionalidades)
+   - [Desafios e Aprendizados no Caminho](#desafios-e-aprendizados-no-caminho)
+   - [Arquivos no Notion](#arquivos-no-notion)
+   - [Como Usar](#como-usar)
+   - [Como Contribuir](#como-contribuir)
+   - [Licença](#licença)
 
    </p>
 
