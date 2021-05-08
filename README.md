@@ -33,7 +33,7 @@ DevQuiz foi desenvolvido durante a 5ª NLW com a proposta de ser um app de pergu
 <h2 align="center">Preview</h2>
 
    <p align="center">
-      <img src="https://i.ibb.co/ctv6qY1/20210503-211943-min.gif" width="400" alt="DevQuiz Demo">
+      <img src="assets/img_readme/Screenshot_20210503-222100.png" width="400" alt="DevQuiz Demo">
    </p>
 
 ---
